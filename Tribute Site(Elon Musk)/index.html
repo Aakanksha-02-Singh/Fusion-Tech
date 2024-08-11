@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk Tribute</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Elon Musk</div>
+            <nav>
+                <ul id="nav-menu" class="hidden">
+                    <li><a href="#bio">Biography</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="menu-toggle" class="menu-toggle">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="bio" class="bio">
+            <div class="container">
+                <h2>Biography</h2>
+                <div class="bio-content">
+                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-07/elon-musk-today-jm-main-220702-88938d.jpg" alt="Elon Musk" class="center">
+                    <p>Elon Musk is the CEO of SpaceX and Tesla, Inc., and founder of The Boring Company and Neuralink. His work in space exploration, electric vehicles, and renewable energy has had a profound impact on technology and industry.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline">
+            <div class="container">
+                <h2>Timeline of Major Achievements</h2>
+                <ul>
+                    <li>1995: Co-founded Zip2</li>
+                    <li>1999: Co-founded X.com (which later became PayPal)</li>
+                    <li>2002: Founded SpaceX</li>
+                    <li>2004: Joined Tesla, Inc.</li>
+                    <li>2006: Co-founded SolarCity</li>
+                    <li>2015: Co-founded OpenAI</li>
+                    <li>2016: Founded Neuralink and The Boring Company</li>
+                    <li>2018: Launched the first Tesla Roadster into space</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Notable Projects</h2>
+                <div class="carousel">
+                    <button class="prev">❮</button>
+                    <img src="https://www.spacex.com/static/images/share.jpg" alt="SpaceX">
+                    <button class="next">❯</button>
+                </div>
+                <div class="project-description">
+                    <h3>SpaceX</h3>
+                    <p>SpaceX is revolutionizing space travel with its reusable rockets and ambitious missions to Mars.</p>
+                    <h3>Tesla</h3>
+                    <p>Tesla is leading the charge in electric vehicles and sustainable energy solutions.</p>
+                    <h3>Neuralink</h3>
+                    <p>Neuralink is developing advanced brain-computer interfaces to merge human intelligence with AI.</p>
+                    <h3>The Boring Company</h3>
+                    <p>The Boring Company is working on innovative tunnel solutions to reduce traffic congestion.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+            <p>© 2024 Elon Musk Tribute Page</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
