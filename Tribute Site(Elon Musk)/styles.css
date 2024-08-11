@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #3a6186, #89253e);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    transition: background 0.5s;
+}
+
+body.dark-mode {
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul.hidden {
+    display: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 80px; /* Adjust for fixed header */
+}
+
+section.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section.bio img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+
+section.bio p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+section.timeline h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.timeline ul {
+    list-style: none;
+    font-size: 1rem;
+}
+
+section.timeline ul li {
+    margin-bottom: 10px;
+}
+
+section.projects .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+section.projects .carousel img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    transition: opacity 0.5s;
+}
+
+section.projects .carousel button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+section.projects .carousel button:hover {
+    color: #89253e;
+}
+
+.project-description h3 {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer button {
+    background: #89253e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+footer button:hover {
+    background: #3a6186;
+}
