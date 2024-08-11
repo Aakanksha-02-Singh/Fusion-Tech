@@ -1,5 +1,6 @@
 # Fusion-Tech
 Web Development Internship Tasks
+
 1.Create a Simple Responsive Webpage:
 
 Objective: To ensure the intern understands the fundamentals of responsive design.
